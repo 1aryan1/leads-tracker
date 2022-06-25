@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "leads tracker",
+    "description" : "A chrome extension to help you keep track of your leads",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "./icon.png"
+    },
+    "permissions": [
+        "tabs"
+    ],
+    "commands": {
+		"_execute_action": {
+			"suggested_key": {
+				"windows": "Ctrl+Shift+Z",
+				"mac": "Command+Shift+Z",
+                "linux": "Ctrl+Shift+Z"
+			}
+		}
+	}
+
+}
